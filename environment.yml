@@ -1,0 +1,15 @@
+name: SimVP
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pip
+  - python
+  - pytorch
+  - pip:
+    - tqdm
+    - scikit-image
+    - opencv-python
+prefix: /opt/anaconda3/envs/simvp
